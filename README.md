@@ -1,12 +1,15 @@
+2017年10月17日10:58:48
 # ThinkSNS Plus Android  Dev Doc
 
 ## 简介
 本文档旨在帮助开发者快速理解并基于 `ThinkSNS Plus Android ` 端的开发，为二次开发提高效率。
 
-
 整个项目相关的决策工作安排等记录在[thinksns-plus-document](https://github.com/zhiyicx/thinksns-plus-document).
 
 整个项目代码风格都遵守[智艺创想移动端开发代码风格指南](https://github.com/zhiyicx/mobile-devices-code-style-guide)
+## 二次开发配置与资源替换
+请查看[二次开发资源配置替换文档](document/tutorial/SecondaryDevelopmentTutorial.md)
+
 ## 工程基础配置说明
 
 该工程使用 java 语言编写.支持 Android 4.0 (api 15) 以上系统.
@@ -99,10 +102,10 @@ android {
 ```
 > **注意:** 使用时请参考 `app/proguard-rules.pro`
 
-## 打包签名说明
-
-- [创建签名文件说明](document/tools/AndroidCreateSignatureFileTutorial.md)
-- [打包说明](document/tools/AndroidPackageTutorial.md)
+## 项目安装、打包、签名说明
+- [项目安装](document/tutorial/AndroidInstallDocTutorial.md)
+- [创建签名文件说明](document/tutorial/AndroidCreateSignatureFileTutorial.md)
+- [打包说明](document/tutorial/AndroidPackageTutorial.md)
 
 ## 文档位置说明
 
